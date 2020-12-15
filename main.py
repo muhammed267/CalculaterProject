@@ -5,8 +5,8 @@ print("number two : ")
 number2 = input()
 
 
-def plus(x, y):
-    print("Plus : ", int(x) + int(y))
+def plus(a, b):
+    print("Plus : ", int(a) + int(b))
 
 
 plus(number1, number2)
@@ -19,15 +19,15 @@ def minus(a, b):
 minus(number1, number2)
 
 
-def times(c, d):
-    print("Times :", int(c) * int(d))
+def times(a, b):
+    print("Times :", int(a) * int(b))
 
 
 times(number1, number2)
 
 
-def divide(e, f):
-    print("Divide :", int(e) / int(f))
+def divide(a, b):
+    print("Divide :", int(a) / int(b))
 
 
 divide(number1, number2)
